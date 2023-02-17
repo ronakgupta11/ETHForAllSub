@@ -15,7 +15,7 @@ export default function Root(){
           <nav>
             <ul>
               
-                <li>
+                <li >
                   <NavLink
                     to="/bridge"
                     className={({ isActive, isPending }) =>
@@ -27,14 +27,14 @@ export default function Root(){
                     }
                   >
 
-                  <Link to="/bridge">
+                  <Link className="bridge" to="/bridge">
                     <>
                     Bridge Tokens</>
                   </Link>
                   </NavLink>
 
                 </li>
-                <li>
+                <li >
                   <NavLink
                     to="/swap"
                     className={({ isActive, isPending }) =>
@@ -46,14 +46,14 @@ export default function Root(){
                     }
                   >
 
-                  <Link to="/swap">
+                  <Link className="swap" to="/swap">
                     <>
                     Swap Tokens</>
                   </Link>
                   </NavLink>
 
                 </li>
-                <li>
+                <li >
                   <NavLink
                     to="/stake"
                     className={({ isActive, isPending }) =>
@@ -65,7 +65,7 @@ export default function Root(){
                     }
                   >
 
-                  <Link to="/stake">
+                  <Link className="stake" to="/stake">
                     <>
                     Stake</>
                   </Link>
@@ -84,14 +84,14 @@ export default function Root(){
                     }
                   >
 
-                  <Link to="/lend">
+                  <Link  className="lend" to="/lend">
                     <>
                     Lend</>
                   </Link>
                   </NavLink>
 
                 </li>
-                <li>
+                <li >
                   <NavLink
                     to="/borrow"
                     className={({ isActive, isPending }) =>
@@ -103,7 +103,7 @@ export default function Root(){
                     }
                   >
 
-                  <Link to="/borrow">
+                  <Link className="borrow" to="/borrow">
                     <>
                     Borrow</>
                   </Link>
