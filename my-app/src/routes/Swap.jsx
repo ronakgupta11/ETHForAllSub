@@ -1,5 +1,5 @@
 import { SwapWidget } from '@uniswap/widgets'
-import '@uniswap/widgets/fonts.css'
+// import '@uniswap/widgets/fonts.css'
 
 export default function Swap(){
     return(
