@@ -7,6 +7,7 @@ import Home from './routes/Home';
 import { Review } from "./routes/Review";
 import { Account } from "./routes/Account";
 import Buy from './routes/Buy';
+import { Upload } from './routes/Upload';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
       {index:true,element:<Home/>},
       {
         path:"/buy",
-        element:<Buy/>
+        element:<Upload/>
       },
       {
         path:"/review",
