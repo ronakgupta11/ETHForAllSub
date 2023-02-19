@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProductList } from '../components/ProductList'
+import { ProductListR } from '../components/ProductListR'
 
 export const Review = () => {
   return (
@@ -8,9 +8,9 @@ export const Review = () => {
                 All Paper Available For Review.
             </div>
             <div className="page-content">
-                <ProductList/>
-                <ProductList/>
-                <ProductList/>
+                <ProductListR/>
+                <ProductListR/>
+                <ProductListR/>
             </div>
     </div>
  )

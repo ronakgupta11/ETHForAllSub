@@ -4,7 +4,7 @@ import * as PushAPI from "@pushprotocol/restapi";
 import { EmbedSDK } from "@pushprotocol/uiembed";
 import { Link } from 'react-router-dom';
 import { SideButtons } from '../components/SideButtons';
-import {ProductList} from "../components/ProductList"
+import {ProductListS} from "../components/ProductListS"
 export const Account = () => {
   const account  = "0xD7D98e76FcD14689F05e7fc19BAC465eC0fF4161";
   useEffect(() => {
@@ -48,16 +48,16 @@ export const Account = () => {
 {/* <SideButtons/> */}
 </div>
 <div className='page-content'> 
-<ProductList/>
-<ProductList/>
-<ProductList/>
-<ProductList/>
-<ProductList/>
-<ProductList/>
-<ProductList/>
-<ProductList/>
-<ProductList/>
-<ProductList/>
+<ProductListS/>
+<ProductListS/>
+<ProductListS/>
+<ProductListS/>
+<ProductListS/>
+<ProductListS/>
+<ProductListS/>
+<ProductListS/>
+<ProductListS/>
+<ProductListS/>
 
 </div>
     </div>
