@@ -38,6 +38,29 @@ export const ArcanaRainbowConnector = ({ chains }) => {
   };
 };
 
+const HyperspaceTestnet= {
+  id: 3141 ,
+  name: 'Filecoin-Hyperspace',
+  network: 'filecoin',
+  iconUrl: 'https://example.com/icon.svg',
+  iconBackground: '#fff',
+  nativeCurrency: {
+    decimals: 18,
+    name: 'TFIL',
+    symbol: 'TFIL',
+  },
+  rpcUrls: {
+    default: {
+      http: ['https://api.hyperspace.node.glif.io/rpc/v1'],
+    },
+  },
+  blockExplorers: {
+    default: { name: 'hyperspace', url: 'https://hyperspace.filfox.info/en' },
+    
+  },
+  testnet: true,
+};
+
 const connectors = (chains) =>
   connectorsForWallets([
     {
@@ -47,7 +70,7 @@ const connectors = (chains) =>
   ]);
 
 const { chains, provider } = configureChains(
-  [mainnet, polygon,goerli,polygonMumbai,filecoin],
+  [mainnet, polygon,goerli,polygonMumbai,HyperspaceTestnet],
   [publicProvider()]
 );
 

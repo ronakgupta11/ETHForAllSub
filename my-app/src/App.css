@@ -192,3 +192,131 @@
   background: transparent;
   width: 100%;
 }
+
+
+.product-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60rem;
+  height: 6rem;
+  background: #3b3b3b;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  margin: 1rem;
+
+}
+.product-btn{
+  background: #A259FF;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  height: 3rem;
+  width: 7rem;
+  font-size: 1.2rem;
+}
+
+.product-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #3b3b3b;
+  width: 80%;
+  padding: 2rem;
+  color: #ffffff;
+  font-weight: 500;
+  height: 50vh;
+  border-radius: 10px;
+  margin: auto;
+  
+}
+.product-left{
+
+}
+.product-right{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 80%;
+}
+.upper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.middle{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: justify;
+}
+.lower{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  position: relative;
+}
+.lower input{
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  height: 2.5rem;
+  padding: 8px;
+}
+.lower button{
+  background: transparent;
+border: none;
+position: absolute;
+right:22%;}
+.price{
+  display: flex;
+  width: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-img{
+  border-radius: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+#sdk-trigger-id{
+  background: transparent;
+  border: none;
+}
+.upload-btn-acc{
+  background: none;
+  border: none;
+}
+
+.buy{
+  /* width: fit-content; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.page-head{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 2rem;
+
+}
+.page-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+button{
+  border: none;
+}

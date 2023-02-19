@@ -8,6 +8,7 @@ import { Review } from "./routes/Review";
 import { Account } from "./routes/Account";
 import Buy from './routes/Buy';
 import { Upload } from './routes/Upload';
+import {ProductCard} from "./components/ProductCard"
 import {
   createBrowserRouter,
   RouterProvider,
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
       {index:true,element:<Home/>},
       {
         path:"/buy",
-        element:<Upload/>
+        element:<Buy/>
       },
       {
         path:"/review",
@@ -30,6 +31,14 @@ const router = createBrowserRouter([
       {
         path:"/account",
         element:<Account/>
+      },
+      {
+        path:"/account/upload",
+        element:<Upload/>
+      },
+      {
+        path:"/buy/:productId",
+        element:<ProductCard/>
       }
     ]
   },

@@ -4,6 +4,8 @@ import { create } from 'ipfs-http-client'
 import {Buffer} from 'buffer'
 import { SideButtons } from '../components/SideButtons'
 
+
+
 export const Upload = () => {
 
     
@@ -40,10 +42,10 @@ const client = create({
 
   return (
     <div className='upload'>
-        <div className='side-buttons'>
+        {/* <div className='side-buttons'>
 
             <SideButtons/>
-        </div>
+        </div> */}
 
        
         <div className='upload-main'>
@@ -62,6 +64,7 @@ const client = create({
                 </div>
             </button>
         </div>
+         
     </div>
   )
 }
