@@ -65,7 +65,10 @@ function App() {
         {/* <ConnectButton/> */}
         <Navbar/>
         <div className="border"></div>
+        <div className="main-page">
+
         <Outlet/>
+        </div>
       </div>
     </RainbowKitProvider>
   </WagmiConfig>

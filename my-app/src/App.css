@@ -84,15 +84,23 @@
 .border{
   border: 2px solid white;
 }
-.home{
+.main-page{
   background: #2b2b2b;
-  display: flex;
-  height: 90vh;
+  margin: 0;
+  min-height: 90vh;
+  color:#ffffff ;
   padding: 5em;
-  color: #ffffff;
+
+
+}
+.home{
+  /* background: #2b2b2b; */
+  display: flex;
+
   align-items: center;
   justify-content: center;
 }
+
 .left-section{
   display: flex;
   flex-direction: column;
@@ -114,5 +122,73 @@
   width: 35%;
 }
 .home-img{
+  width: 100%;
+}
+.upload{
+  position: relative;
+}
+.side-buttons{
+  width: fit-content;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+}
+.upload-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.upload-head{
+  color:#C69EFA;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.upload-main input{
+  margin: 1rem;
+  width: 40%;
+  height: 2.5rem;
+  border: none;
+  border-radius: 5px;
+}
+.upload-main button div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  color: #A259FF;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.upload-main button{
+  border-radius:40px 0 0 40px ;
+}
+.upload-main button div svg{
+  margin: 0.5rem;
+  /* width: 20%; */
+  height: 80px;
+}
+.side-btns{
+  width: 4rem;
+  padding: 0;
+}
+.side-btn-list{
+  list-style: none;
+  background: #3b3b3b;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+
+}
+
+.side-btn-list-item button{
+  margin: 1rem 0;
+  
+  border: none;
+  background: transparent;
   width: 100%;
 }
